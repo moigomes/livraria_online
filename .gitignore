@@ -315,3 +315,9 @@ fabric.properties
 # profiling data
 
 # End of https://www.toptal.com/developers/gitignore/api/python,django,pycharm
+/.idea/.gitignore
+
+
+/clientes/migrations/
+/emprestimos/migrations/
+/livros/migrations/
