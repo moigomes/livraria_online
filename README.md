@@ -1,5 +1,11 @@
 # livraria_online
 
+Livraria online é uma API REST desenvolvida em Python3.6 utilizando o Framework [Django REST framework](https://www.django-rest-framework.org/).
+Possibilita cadastrar clientes, livros e realizar empréstimos.
+
+
+
+
 #### 1 -  Clonar projeto:
 ```sh
 git clone https://github.com/moigomes/livraria_online.git
@@ -14,7 +20,7 @@ source env/bin/activate
 
 #### 3 - Instalar dependências:
 ```sh
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
@@ -23,6 +29,7 @@ pip3 install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 ```
+
 
 #### 5 - Run API:
 ```sh
