@@ -31,9 +31,9 @@ python manage.py runserver
 
 #
 
-##Uso:
+## Uso:
 
-####Cadastrando livros:
+#### Cadastrando livros:
 POST /livros/
 ```sh
 {
@@ -45,7 +45,7 @@ POST /livros/
 }
 ```
 #
-####Cadastrando clientes:
+#### Cadastrando clientes:
 POST /clientes/
 ```sh
 {
@@ -54,7 +54,7 @@ POST /clientes/
 }
 ```
 #
-####Realizando empréstimo:
+#### Realizando empréstimo:
 POST /emprestimos/
 ```sh
 {
@@ -64,16 +64,16 @@ POST /emprestimos/
 }
 ```
 #
-####Listagem de livros emprestados por Cliente:
+#### Listagem de livros emprestados por Cliente:
 GET /clientes/{cliente_id}/livros
 
 #
-####Listagem de todos livros:
+#### Listagem de todos livros:
 GET /livros
 
 
 #
-####Testes:
+#### Testes:
 ```sh
 python manage.py test
 ```
