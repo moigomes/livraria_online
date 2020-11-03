@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 
-#### 4 - Realizar migrações(database):
+#### 4 - Realizar migrações(criará as tabelas a partir dos models):
 ```sh
 python manage.py makemigrations
 python manage.py migrate
